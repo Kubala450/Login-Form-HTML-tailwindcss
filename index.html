@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="dist/output.css" rel="stylesheet">
+    </head>
+    <body class="bg-zinc-900">
+        <div class="flex items-center justify-center h-screen">
+            <div class="bg-stone-100 p-8 rounded-lg shadow-lg">
+                <h1 class="text-4xl font-bold text-center">Login Form</h1>
+                <h3 class="text-lg font-bold text-center m-2">Please enter your login credentials</h3>
+                <form action="">
+                    <label class="flex mb-1" for="username">
+                        Username:
+                    </label>
+                    <input class="w-full p-2.5 rounded-lg" type="text" id="username" name="username" placeholder="Enter your Username" required>
+                    <label class="flex mt-3 mb-1" for="password">
+                        Password:
+                    </label>
+                    <input class="w-full p-2.5 rounded-lg" type="password" id="password" name="password" placeholder="Enter your Password" required>
+                    <div class="flex justify-center m-4">
+                        <button class="w-48 h-10 bg-sky-500 hover:bg-sky-600 text-white rounded-md" type="submit">
+                            Log In
+                        </button>
+                    </div>
+                </form>
+                <p>Not registered?
+                    <a href="#" class="no- text-sky-500 hover:text-sky-600 font-semibold">
+                        Create an 
+                    </a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
